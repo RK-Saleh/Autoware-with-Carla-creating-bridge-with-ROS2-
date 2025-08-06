@@ -1,0 +1,11 @@
+ageda@ageda-gpu:~$ hostname -I
+10.72.102.24 10.72.102.2 172.17.0.1 
+ageda@ageda-gpu:~$ cd projects/CARLA_0.9.15/
+ageda@ageda-gpu:~/projects/CARLA_0.9.15$ ls
+CarlaUE4       Dockerfile  Import                         Plugins      Saleh
+CarlaUE4.sh    Engine      ImportAssets.sh                __pycache__  Tools
+CHANGELOG      get-pip.py  LICENSE                        PythonAPI    VERSION
+Co-Simulation  HDMaps      Manifest_DebugFiles_Linux.txt  README
+ageda@ageda-gpu:~/projects/CARLA_0.9.15$  ./CarlaUE4.sh -carla-rpc-port=1403 -quality-level=Low -prefernvidia
+4.26.2-0+++UE4+Release-4.26 522 0
+Disabling core dumps.
