@@ -1,0 +1,5 @@
+ageda@ageda-gpu:~/projects/CARLA_0.9.15$ cd PythonAPI/examples
+ageda@ageda-gpu:~/projects/CARLA_0.9.15/PythonAPI/examples$ cd ~
+ageda@ageda-gpu:~$ source ~/.venvs/carla/bin/activate
+(carla) ageda@ageda-gpu:~$ 
+
