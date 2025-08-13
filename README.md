@@ -22,5 +22,5 @@ To run this project, you will need:
 ### 1️⃣ Launch CARLA 0.9.15
 
 ```bash
-# Your CARLA run command here
+# CARLA run command here
 ./CarlaUE4.sh -carla-rpc-port=1403 -quality-level=Low -prefernvidia
