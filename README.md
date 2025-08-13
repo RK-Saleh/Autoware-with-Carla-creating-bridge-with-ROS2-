@@ -24,7 +24,7 @@ To run this project, you will need:
 ```bash
 # CARLA run command here
 ./CarlaUE4.sh -carla-rpc-port=1403 -quality-level=Low -prefernvidia
-
+---
 ### 2️⃣ Launch the Bridge
 Docker container for the tumgeka/carla-autoware-bridge:latest image, which connects CARLA and Autoware via ROS 2.
 ```bash
