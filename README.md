@@ -65,5 +65,5 @@ Launch Autoware
 ```bash
 #Launch Autoware
 
-ros2 launch autoware_launch e2e_simulator.launch.xml vehicle_model:=carla_t2_vehicle sensor_model:=carla_t2_sensor_kit map_path:=<path to /wsp/map>
+ros2 launch autoware_launch e2e_simulator.launch.xml vehicle_model:=carla_t2_vehicle sensor_model:=carla_t2_sensor_kit map_path:=/home/ageda/projects/CARLA_0.9.15/Saleh/Carla-Autoware-Bridge/src/carla_autoware_bridge/maps/Town10 
 ```
