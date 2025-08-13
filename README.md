@@ -53,3 +53,16 @@ rocker \
   -- \
   ghcr.io/autowarefoundation/autoware:humble-2024.01-cuda-amd64
 ```
+Clone the CarlaT2 repository
+```bash
+#Cloning Carlat2
+git clone https://github.com/TUMFTM/Carla_t2.git
+```
+Get the carla-autoware-bridge map from this link: https://syncandshare.lrz.de/getlink/fiBgYSNkmsmRB28meoX3gZ/
+
+Launch Autoware
+```bash
+#Launch Autoware
+
+ros2 launch autoware_launch e2e_simulator.launch.xml vehicle_model:=carla_t2_vehicle sensor_model:=carla_t2_sensor_kit map_path:=<path to /wsp/map>
+```
