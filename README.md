@@ -35,4 +35,21 @@ docker run -it -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp --network host tumgeka/c
 ```bash
 # Bridge Launch command here
 ros2 launch carla_autoware_bridge carla_aw_bridge.launch.py port:=1403 town:=Town10HD
-
+### 3️⃣ Launch the Bridge
+Docker image for autoware humble
+```bash
+# Command for the image of autoware humble
+ docker pull ghcr.io/autowarefoundation/autoware:humble-2024.01-cuda-amd64
+```
+Run the autoware humble container
+```bash
+#Command command for autoware humble container
+rocker \
+  --x11 \
+  --network host \
+  --env RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
+  --env LIBGL_ALWAYS_SOFTWARE=1 \
+  --volume /home/ageda/projects/CARLA_0.9.15/Saleh/Carla-Autoware-Bridge:/workspace \
+  -- \
+  ghcr.io/autowarefoundation/autoware:humble-2024.01-cuda-amd64
+```
