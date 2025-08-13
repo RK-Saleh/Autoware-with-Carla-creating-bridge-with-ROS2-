@@ -23,3 +23,4 @@ To run this project, you will need:
 
 ```bash
 # Your CARLA run command here
+./CarlaUE4.sh -carla-rpc-port=1403 -quality-level=Low -prefernvidia
