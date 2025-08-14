@@ -36,7 +36,7 @@ docker run -it -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp --network host tumgeka/c
 # Bridge Launch command here
 ros2 launch carla_autoware_bridge carla_aw_bridge.launch.py port:=1403 town:=Town10HD
 ```
-### 3️⃣ Launch the Bridge
+### 3️⃣ Launch Autoware
 Docker image for autoware humble
 ```bash
 # Command for the image of autoware humble
